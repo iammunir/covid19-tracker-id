@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "https://iammunir.github.io/covid19-tracker-id/static/css/main.62afbe6d.chunk.css",
+    "main.js": "https://iammunir.github.io/covid19-tracker-id/static/js/main.587f4f8f.chunk.js",
+    "main.js.map": "https://iammunir.github.io/covid19-tracker-id/static/js/main.587f4f8f.chunk.js.map",
+    "runtime-main.js": "https://iammunir.github.io/covid19-tracker-id/static/js/runtime-main.37785223.js",
+    "runtime-main.js.map": "https://iammunir.github.io/covid19-tracker-id/static/js/runtime-main.37785223.js.map",
+    "static/js/2.cb4ff553.chunk.js": "https://iammunir.github.io/covid19-tracker-id/static/js/2.cb4ff553.chunk.js",
+    "static/js/2.cb4ff553.chunk.js.map": "https://iammunir.github.io/covid19-tracker-id/static/js/2.cb4ff553.chunk.js.map",
+    "index.html": "https://iammunir.github.io/covid19-tracker-id/index.html",
+    "precache-manifest.4ce1db4dfc453718c11d4d30ded54932.js": "https://iammunir.github.io/covid19-tracker-id/precache-manifest.4ce1db4dfc453718c11d4d30ded54932.js",
+    "service-worker.js": "https://iammunir.github.io/covid19-tracker-id/service-worker.js",
+    "static/css/main.62afbe6d.chunk.css.map": "https://iammunir.github.io/covid19-tracker-id/static/css/main.62afbe6d.chunk.css.map",
+    "static/js/2.cb4ff553.chunk.js.LICENSE.txt": "https://iammunir.github.io/covid19-tracker-id/static/js/2.cb4ff553.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37785223.js",
+    "static/js/2.cb4ff553.chunk.js",
+    "static/css/main.62afbe6d.chunk.css",
+    "static/js/main.587f4f8f.chunk.js"
+  ]
+}
