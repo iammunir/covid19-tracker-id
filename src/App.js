@@ -20,8 +20,8 @@ function App() {
 
   return (
     <div className={styles.container}>
-      <Header />
-      <Card dataApi={data} />
+      <Header dataApi={data.attributes}/>
+      <Card dataApi={data.attributes} />
       <Tables />
     </div>
   );

@@ -14,19 +14,24 @@ const Cards = ({dataApi}) => {
     <div className={styles.container}>
       <Grid container spacing={3} justify="center">
         <CardEl 
-          data={dataApi.positif} 
+          data={dataApi.Confirmed} 
           title="Positif" 
           remark="Jumlah pasien terinfeksi"
            />
         <CardEl 
-          data={dataApi.sembuh} 
+          data={dataApi.Recovered} 
           title="Sembuh" 
           remark="Jumlah pasien sembuh"
           />
         <CardEl 
-          data={dataApi.meninggal} 
+          data={dataApi.Deaths} 
           title="Meninggal" 
           remark="Jumlah pasien meninggal"
+          />
+        <CardEl 
+          data={dataApi.Active} 
+          title="Dirawat" 
+          remark="Jumlah pasien sedang dirawat"
           />
       </Grid>
     </div>

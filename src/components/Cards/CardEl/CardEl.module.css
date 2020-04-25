@@ -1,10 +1,10 @@
 .card {
-  margin: 1rem 2% !important;
+  margin: 1rem 1rem !important;
   box-shadow: 10px 12px 12px rgba(0, 0, 0, 0.3) !important;
 }
 
 .infected {
-  border-bottom: 10px solid rgba(0, 0, 255, .5);  
+  border-bottom: 10px solid rgba(0, 0, 255, .5);
 }
 
 .recovered {
@@ -13,4 +13,8 @@
 
 .deaths {
   border-bottom: 10px solid rgba(255, 0, 0, .5);  
+}
+
+.active {
+  border-bottom: 10px solid rgba(0, 0, 0, .2);  
 }

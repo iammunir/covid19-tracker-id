@@ -16,8 +16,16 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ButtonAppBar() {
+export const Header = ({dataApi}) => {
   const classes = useStyles();
+  
+  let update = 'Loading';
+  
+  if(dataApi) {
+    const date = new Date(dataApi.Last_Update).toLocaleDateString(['ban', 'id']);
+    const time = new Date(dataApi.Last_Update).toLocaleTimeString();
+    update = `${date} - ${time}`;
+  }
 
   return (
     <div className={classes.root}>
@@ -26,8 +34,13 @@ export default function ButtonAppBar() {
           <Typography variant="h6" className={classes.title}>
             COVID-19 di Indonesia
           </Typography>
+          <Typography variant="subtitle2">
+            Update: {update}
+          </Typography>
         </Toolbar>
       </AppBar>
     </div>
   );
 }
+
+export default Header;

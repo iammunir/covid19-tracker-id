@@ -11,9 +11,10 @@ const CardEl = ({data, title, remark}) => {
   if (title === 'Positif') addClass = `${styles.infected}`
   else if (title === 'Sembuh') addClass = `${styles.recovered}`
   else if (title === 'Meninggal') addClass = `${styles.deaths}`
+  else if (title === 'Dirawat') addClass = `${styles.active}`
 
   return (
-    <Grid item component={Card} xs={12} md={3} className={cN(styles.card, addClass)}>
+    <Grid item component={Card} xs={12} md={4} lg={2} className={cN(styles.card, addClass)}>
       <CardContent>
         <Typography color="textSecondary" gutterBottom>
           {title}
